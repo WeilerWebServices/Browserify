@@ -1,0 +1,12 @@
+# pack-refs with: peeled fully-peeled sorted 
+7d4fb9e2fc357b8eeeff0acf7f4451ffc3f29d21 refs/remotes/origin/builder
+63c32abbfd650d1e197b792debeca90e1c2d1359 refs/remotes/origin/dependabot/npm_and_yarn/marked-1.1.1
+456bb07c8617e911c79279ea08159000edc1e6e1 refs/remotes/origin/failing-shot-tests
+c631d2436e48cd4dccdb964543a422b966574436 refs/remotes/origin/feature/scuttlebutt-cache
+695c0c0061c02411973d006ebbfba8f70c26af28 refs/remotes/origin/include-readmes-in-multibundle-metadata
+4d78578b332f5f14df13e53c023ad8932f86c72b refs/remotes/origin/master
+c7fd3d5ed51fc0b88fef57e306153d4d8af51abd refs/remotes/origin/nodejitsu
+db0146bca92c13b78c933c17f938af2651a27ef0 refs/remotes/origin/production
+9813ef43fe1e2730f87c14bc2bb74b3e29a6500f refs/remotes/origin/v1
+bf7ebc84dda7c14cbffba443ccea4e66ec32ff35 refs/remotes/origin/v2
+5750140201859185126485494ae281976780c42f refs/remotes/origin/v3

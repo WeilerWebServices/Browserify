@@ -1,0 +1,45 @@
+{
+  "name": "browserify-cdn",
+  "version": "0.4.0",
+  "bin": {
+    "browserify-cdn": "./bin/browserify-cdn"
+  },
+  "dependencies": {
+    "basic": "2.0.3",
+    "browser-resolve": "^1.11.3",
+    "browserify": "^16.5.0",
+    "changes-stream": "^2.2.0",
+    "compression": "1.7.4",
+    "concat-stream": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "glob": "7.1.4",
+    "level": "^5.0.1",
+    "level-sublevel": "6.6.5",
+    "level-ttl": "3.1.1",
+    "minilog": "^3.1.0",
+    "mkdirp": "0.5.1",
+    "normalize-registry-metadata": "^1.1.2",
+    "npm": "^6.11.3",
+    "pacote": "^9.5.8",
+    "resolve": "^1.12.0",
+    "rimraf": "3.0.0",
+    "semver": "^6.3.0",
+    "terser": "^4.3.4",
+    "uuid": "3.3.3",
+    "waitress": "~0.1.5",
+    "xtend": "4.0.2"
+  },
+  "devDependencies": {
+    "marked": "^0.5.2",
+    "supertest": "^3.4.2",
+    "tap": "^14.6.5"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/browserify/wzrd.in.git",
+  "scripts": {
+    "index-page": "node ./tools/make-index.js",
+    "start": "node ./bin/browserify-cdn",
+    "test": "rm -rf ./cdn.db && rm -rf ./test/cdn.db && tap -j1 ./test/*.js"
+  }
+}

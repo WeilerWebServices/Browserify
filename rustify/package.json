@@ -1,0 +1,38 @@
+{
+  "name": "rustify",
+  "description": "Rust WebAssembly transform for Browserify",
+  "repository": "browserify/rustify",
+  "version": "1.1.0",
+  "scripts": {
+    "start": "bankai start example/inline",
+    "start:external": "bankai start example/external",
+    "build": "mkdir -p dist/ && browserify -t ./ example/inline.js -o dist/bundle.js",
+    "build:external": "mkdir -p dist/ && browserify -t ./ example/external.js -o dist/bundle.js",
+    "test": "standard && node test/index.js"
+  },
+  "dependencies": {
+    "acorn-node": "^1.3.0",
+    "falafel": "^2.1.0",
+    "map-limit": "0.0.1",
+    "mkdirp": "^0.5.1",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "bankai": "^9.0.1",
+    "browserify": "^14.5.0",
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "standard": {
+    "ignore": [
+      "test/*/**.js"
+    ]
+  },
+  "keywords": [
+    "browserify",
+    "rust",
+    "node",
+    "inline"
+  ],
+  "license": "Apache-2.0"
+}

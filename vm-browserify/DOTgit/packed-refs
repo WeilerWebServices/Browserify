@@ -1,0 +1,13 @@
+# pack-refs with: peeled fully-peeled sorted 
+033537b20cec686adecaa4dde61c91134d59bc41 refs/remotes/origin/master
+853a5eda1fc5f905d07ccc0d81897ab9d8c38eb5 refs/remotes/origin/rm-polyfills
+8bf32e3bb0045b10dd4c55c2fad29e8e07cc67aa refs/tags/0.0.0
+069747f83f16bd5f17d61ac5588de657d77ca21f refs/tags/0.0.1
+99b26c9d7387fb557634daa7cee1437fc4ec0b40 refs/tags/0.0.2
+c36946521be28363fff81073968c590ffd1d59fe refs/tags/0.0.3
+bfd7c5f59edec856dc7efe0b77a4f6b2fa20f226 refs/tags/0.0.4
+1bbbed5a1e09502d2b63cb6f14a067c48bb36790 refs/tags/v1.0.0
+ed8503236fe9e1580f5426a19c32f2398ad47efe refs/tags/v1.0.1
+7364fe7142b527f27c9fb0c6bdaca34d900d40a8 refs/tags/v1.1.0
+5727a86957dcf721b96fc5e87686e23f36d1bc6d refs/tags/v1.1.1
+a8fe8f62f418c3ff529632ef0a3398b5f4ad9258 refs/tags/v1.1.2

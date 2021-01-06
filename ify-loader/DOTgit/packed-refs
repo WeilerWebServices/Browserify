@@ -1,0 +1,12 @@
+# pack-refs with: peeled fully-peeled sorted 
+fdf7ad485d1b1821c8c2c9e8424e9a7dfb16edcd refs/remotes/origin/dependabot/github_actions/actions/setup-node-v2.1.4
+e448ad9386045e0deb404e2cae1684a21d9723cb refs/remotes/origin/dependabot/github_actions/bahmutov/npm-install-v1.6.2
+ef906aef404669a02af3fb86da6a9fccfca43efa refs/remotes/origin/master
+1e3680e2c94777e60f9b62d4d2c978f69fd7c012 refs/tags/v1.0.1
+^bf89b4f27de267ce422c44380a8f7767e6e9c556
+798ccb6f859a7c3de6c5f1f26c3570700b27c970 refs/tags/v1.0.2
+^f1355ecdf0dc4a76ca04944a4a060945518fb772
+2d5a6e747820263d2753c4218edc7eafd2d59700 refs/tags/v1.0.3
+^cded392763b4d62ea9c4d680d8ecab97dade04b0
+3ce47769f6869ed81d341d1407e0ce874f01f1f0 refs/tags/v1.0.4
+^6fb1cada46f76a3e0796054f81e4aa67e435f067
